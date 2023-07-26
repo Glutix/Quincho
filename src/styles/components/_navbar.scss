@@ -1,0 +1,22 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	background-color: gray;
+	height: 4rem;
+
+	&-list {
+		display: flex;
+		gap: 2rem;
+		list-style: none;
+	}
+
+	&-item {
+		a {
+			text-decoration: none;
+			color: white;
+		}
+	}
+}

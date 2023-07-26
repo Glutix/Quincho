@@ -1,0 +1,17 @@
+//! setting general
+@import "./base/variables.scss";
+@import "./base/mixin.scss";
+@import "./base/setting";
+
+//! Components
+//? Navbar
+@import "./components/navbar";
+
+//? Slider
+@import "./components/slider";
+
+//? About
+@import "./components/about";
+
+//? Home
+@import "./components/home";
