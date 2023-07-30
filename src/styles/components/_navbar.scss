@@ -4,13 +4,14 @@
 	align-items: center;
 	padding-right: 1rem;
 	padding-left: 1rem;
-	background-color: $color-secondary;
+	background-color: $color-text;
 	height: 4rem;
 	width: 100%;
 	position: fixed;
+	z-index: 3000;
 
 	&-logo {
-		color: $color-text;
+		color: $color-primary;
 		font-size: 2.3rem;
 		font-family: $font-secundary;
 		letter-spacing: 2px;
@@ -25,7 +26,7 @@
 	&-item {
 		a {
 			text-decoration: none;
-			color: $color-text;
+			color: $color-primary;
 			border-bottom: solid 2px transparent;
 			transition: 0.3s ease;
 		}

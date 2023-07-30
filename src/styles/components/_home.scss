@@ -16,18 +16,19 @@
 			gap: 1rem;
 			h2 {
 				font-size: 3em;
-				font-weight: 1000;
+				font-weight: 700;
 				letter-spacing: 2px;
+				color: $color-primary;
 			}
 		}
 
 		&-text {
 			text-align: center;
+			color: $color-primary;
 
 			p {
 				font-size: 2rem;
-				letter-spacing: 2px;
-				font-weight: 1000;
+				font-weight: 700;
 			}
 		}
 	}

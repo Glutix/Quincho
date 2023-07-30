@@ -4,7 +4,7 @@ const errorMessage: PropsErrorMessage = {
 	required: "Este campo es requerido",
 	maxLongName: "(Max: 35 caracteres)",
 	maxLongText: "(Max: 500 caracteres)",
-	minLongText: "(Min: 35 caracteres)",
+	minLongText: "(Min: 10 caracteres)",
 	invalidEmail: "Ingrese un email valido",
 };
 
@@ -32,7 +32,7 @@ const validate = (data: FormData) => {
 		errors.message = errorMessage.required;
 	} else if (data.message.length < 10) {
 		errors.message = errorMessage.minLongText;
-	} else if (data.message.length > 500) {
+	} else if (data.message.length >= 500) {
 		errors.message = errorMessage.maxLongText;
 	}
 

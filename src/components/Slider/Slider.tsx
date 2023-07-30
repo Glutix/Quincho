@@ -1,53 +1,59 @@
-import React from "react";
-//? Import Swiper React components
+import React, { useState } from "react";
+// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import images from "../Slider/data";
 
-//? Import Swiper styles
+// Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination";
+import "swiper/css/free-mode";
 import "swiper/css/navigation";
+import "swiper/css/thumbs";
 
-//? import required modules
-import { Pagination, Navigation, Keyboard, Autoplay } from "swiper/modules";
+import images from "./data";
 
-//? import interfaces
-import { SlideProps } from "../../utils/interfaces";
+// import required modules
+import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 
 const Slider: React.FC = () => {
+	const [thumbsSwiper, setThumbsSwiper] = useState<any>(null);
+
 	return (
-		<>
+		<div className="slider-conteiner">
+			<h2>Galeria de imagenes</h2>
+
 			<Swiper
-				slidesPerView={1}
-				spaceBetween={30}
-				autoplay={{
-					delay: 2500,
-					disableOnInteraction: false,
-				}}
-				loop={true}
-				keyboard={{
-					enabled: true,
-				}}
-				pagination={{
-					clickable: true,
-				}}
+				spaceBetween={10}
 				navigation={true}
-				modules={[Pagination, Navigation, Keyboard, Autoplay]}
-				className="slider-conteiner"
+				thumbs={{ swiper: thumbsSwiper }}
+				modules={[FreeMode, Navigation, Thumbs]}
+				className="mySwiper2"
 			>
-				{images.map((item: SlideProps, index) => {
+				{images.map((item) => {
 					return (
-						<SwiperSlide
-							key={index}
-							className="slider"
-							style={{ backgroundImage: `url(${item.url})` }}
-						>
-							<h2 className="slider-text">{item.title}</h2>
+						<SwiperSlide>
+							<img src={`${item.url}`} />
 						</SwiperSlide>
 					);
 				})}
 			</Swiper>
-		</>
+
+			<Swiper
+				//onSwiper={setThumbsSwiper}
+				spaceBetween={10}
+				slidesPerView={4}
+				freeMode={true}
+				watchSlidesProgress={true}
+				modules={[FreeMode, Navigation, Thumbs]}
+				className="mySwiper"
+			>
+				{images.map((item) => {
+					return (
+						<SwiperSlide>
+							<img src={`${item.url}`} />
+						</SwiperSlide>
+					);
+				})}
+			</Swiper>
+		</div>
 	);
 };
 

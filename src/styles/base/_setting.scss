@@ -24,7 +24,7 @@ body {
 }
 
 p {
-	font-weight: 500;
+	font-weight: bold;
 	letter-spacing: 1px;
 	line-height: 1.5rem;
 }
@@ -47,21 +47,21 @@ p::-webkit-scrollbar-track {
 }
 
 label {
-	font-weight: 500;
+	font-weight: bold;
 	letter-spacing: 1px;
 	line-height: 1.5rem;
 }
 
 a {
-	font-weight: 500;
+	font-weight: bold;
 	letter-spacing: 1px;
 	line-height: 1.5rem;
 }
 
-h2 {
-	font-size: 1rem;
-}
-
-h1 {
-	font-size: 15rem;
+.app {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	min-width: 100%;
+	min-height: 100vh;
 }

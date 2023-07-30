@@ -1,0 +1,33 @@
+.contact {
+	@include fullCenter(column);
+	gap: 1rem;
+	background-color: white;
+	padding: 2rem;
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	.form {
+		@include fullCenter(column);
+		width: 30rem;
+		height: fit-content;
+		border-radius: 1rem;
+		border: 1px solid $color-secondary;
+		padding: 2rem;
+		gap: 1rem;
+
+		&-section {
+			@include fullCenter(column);
+			flex-direction: column;
+			gap: 2px;
+			width: 100%;
+
+			textarea {
+				max-width: 100%;
+				min-height: 10rem;
+				min-width: 60%;
+			}
+		}
+	}
+}
