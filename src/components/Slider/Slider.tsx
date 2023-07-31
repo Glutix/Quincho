@@ -1,53 +1,30 @@
-import React, { useState } from "react";
-// Import Swiper React components
+import React from "react";
+//? Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
+//? Import Swiper styles
 import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/navigation";
-import "swiper/css/thumbs";
+import "swiper/css/effect-cards";
 
 import images from "./data";
 
-// import required modules
-import { FreeMode, Navigation, Thumbs } from "swiper/modules";
+//? import required modules
+import { EffectCards } from "swiper/modules";
 
 const Slider: React.FC = () => {
-	const [thumbsSwiper, setThumbsSwiper] = useState<any>(null);
-
 	return (
-		<div className="slider-conteiner">
+		<div className="slider-conteiner" id="galery">
 			<h2>Galeria de imagenes</h2>
 
 			<Swiper
-				spaceBetween={10}
-				navigation={true}
-				thumbs={{ swiper: thumbsSwiper }}
-				modules={[FreeMode, Navigation, Thumbs]}
-				className="mySwiper2"
-			>
-				{images.map((item) => {
-					return (
-						<SwiperSlide>
-							<img src={`${item.url}`} />
-						</SwiperSlide>
-					);
-				})}
-			</Swiper>
-
-			<Swiper
-				//onSwiper={setThumbsSwiper}
-				spaceBetween={10}
-				slidesPerView={4}
-				freeMode={true}
-				watchSlidesProgress={true}
-				modules={[FreeMode, Navigation, Thumbs]}
+				effect={"cards"}
+				grabCursor={true}
+				modules={[EffectCards]}
 				className="mySwiper"
 			>
-				{images.map((item) => {
+				{images.map((item, index) => {
 					return (
-						<SwiperSlide>
+						<SwiperSlide key={index}>
 							<img src={`${item.url}`} />
 						</SwiperSlide>
 					);

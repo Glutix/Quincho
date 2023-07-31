@@ -104,15 +104,16 @@ const Contact: React.FC = () => {
 			<h2 id="contact">Contáctame</h2>
 
 			<form ref={form} onSubmit={sendEmail} className="form">
-				<section className="form-section">
-					<label>Nombre</label>
+				<section className="inputGroup">
 					<input
 						type="text"
 						name="user_name"
-						placeholder="Ingresa tu nombre"
 						value={formData.user_name}
 						onChange={handleChange}
+						autoComplete="off"
+						required
 					/>
+					<label>Nombre</label>
 					{errors.user_name ? (
 						<span className="error-message">{errors.user_name}</span>
 					) : (
@@ -120,15 +121,16 @@ const Contact: React.FC = () => {
 					)}
 				</section>
 
-				<section className="form-section">
-					<label>Email</label>
+				<section className="inputGroup">
 					<input
 						type="email"
 						name="user_email"
-						placeholder="Ingresa tu email"
 						value={formData.user_email}
 						onChange={handleChange}
+						autoComplete="off"
+						required
 					/>
+					<label>Email</label>
 					{errors.user_email ? (
 						<span className="error-message">{errors.user_email}</span>
 					) : (

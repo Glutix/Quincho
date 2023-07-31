@@ -2,6 +2,86 @@
 	background-color: $color-text;
 	color: $color-primary;
 	width: 100%;
-	height: 15rem;
-	/*  margin-top: -2rem; */
+	height: fit-content;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 2rem;
+
+	&-info {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		text-align: center;
+
+		&-1 {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			height: 100%;
+			gap: 1rem;
+
+			section {
+				display: flex;
+				width: fit-content;
+				justify-content: flex-start;
+				text-align: justify;
+				gap: 1rem;
+			}
+		}
+
+		&-conteiner {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			height: 100%;
+			gap: 2rem;
+			border-right: 2px solid $color-primary;
+
+			span {
+				display: block;
+			}
+
+			&-1 {
+				display: flex;
+				width: fit-content;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				height: fit-content;
+				gap: 1rem;
+
+				span {
+					display: block;
+				}
+			}
+
+			&-2 {
+				display: flex;
+				gap: 1rem;
+			}
+
+			&-3 {
+				display: flex;
+				width: fit-content;
+				justify-content: flex-start;
+				gap: 1rem;
+				width: 15rem;
+				height: fit-content;
+				margin-left: 5rem;
+			}
+		}
+
+		.aux {
+			border-right: none;
+		}
+
+		img {
+			width: 2rem;
+			height: 2rem;
+		}
+	}
 }

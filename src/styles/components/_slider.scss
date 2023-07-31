@@ -7,34 +7,23 @@
 	width: 100%;
 	height: 100vh;
 	padding: 1rem;
+	background-color: white;
 
 	h2 {
 		font-size: 2rem;
 	}
 
-	.mySwiper2 {
-		width: 70%;
-		height: 60%;
-		border-radius: 1rem;
-
-		img {
-			border-radius: 1rem;
-			width: 100%;
-			height: 100%;
-			border: 2px solid $color-secondary;
-		}
-	}
-
 	.mySwiper {
-		width: 70%;
-		height: 20%;
+		width: 20rem;
+		height: 30rem;
 		border-radius: 1rem;
 
 		img {
 			border-radius: 1rem;
 			width: 100%;
 			height: 100%;
-			border: 2px solid $color-secondary;
+			border: 1px solid $color-secondary;
+			object-fit: cover;
 		}
 	}
 }

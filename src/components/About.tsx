@@ -3,7 +3,9 @@ import React from "react";
 const About: React.FC = () => {
 	return (
 		<div className="about">
-			<h2 className="about-title">Sobre nosotros</h2>
+			<h2 className="about-title" id="about">
+				Sobre nosotros
+			</h2>
 			<p className="about-text">
 				¡Bienvenidos a <strong>Quincho Alto Norte!</strong> Somos el destino
 				ideal para reuniones y celebraciones familiares. Con 2 años de
