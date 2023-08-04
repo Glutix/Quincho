@@ -6,11 +6,13 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Slider from "./components/Slider/Slider";
+import TimeLine from "./components/TimeLine";
 
 const App = () => {
 	return (
 		<div className="app">
 			<Home />
+			<TimeLine />
 			<Slider />
 			<About />
 			<Contact />

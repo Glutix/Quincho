@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
 					<section className="footer-info-conteiner-1">
 						<img src={location} alt="location-icon" />
 						<p>
-							Calle 51 entre 00 y 000 <span>Avenida los espaÑoles</span>
+							Calle 000 y 61 <span>Alto del norte</span>
 						</p>
 					</section>
 				</div>
@@ -25,8 +25,15 @@ const Footer: React.FC = () => {
 				<div className="footer-info-conteiner">
 					<h2>Seguinos en</h2>
 					<section className="footer-info-conteiner-2">
-						<img src={facebook} alt="facebook-icon" />
-						<img src={instagram} alt="instagram-icon" />
+						<a
+							href="https://www.facebook.com/profile.php?id=100087569863426"
+							target="_blank"
+						>
+							<img src={facebook} alt="facebook-icon" />
+						</a>
+						<a href="https://www.instagram.com/alto_del_norte/" target="_blank">
+							<img src={instagram} alt="instagram-icon" />
+						</a>
 					</section>
 				</div>
 
@@ -35,12 +42,12 @@ const Footer: React.FC = () => {
 
 					<section className="footer-info-conteiner-3">
 						<img src={whatsapp} alt="whatsapp-icon" />
-						<p>3644-121212</p>
+						<p>3644-608772</p>
 					</section>
 
 					<section className="footer-info-conteiner-3">
 						<img src={mobile} alt="whatsapp-icon" />
-						<p>3644-121212</p>
+						<p>3644-608772</p>
 					</section>
 
 					<section className="footer-info-conteiner-3">

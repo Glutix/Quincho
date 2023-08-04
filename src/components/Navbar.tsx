@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+import BurgerBtn from "./BurgerBtn";
 
 const Navbar: React.FC = () => {
+	const [visible, setVisible] = useState<Boolean>(false);
+
 	return (
 		<nav className="nav">
 			<h2 className="nav-logo">Alto Norte</h2>
@@ -21,6 +24,8 @@ const Navbar: React.FC = () => {
 					<a href="#contact">Contacto</a>
 				</li>
 			</ul>
+
+			<BurgerBtn isVisible={visible}/>
 		</nav>
 	);
 };
