@@ -18,7 +18,7 @@ Para desplegar la aplicación en tu entorno local, sigue estos sencillos pasos:
 
 ## Ejecutar la App
 ```js
-   npm install
+   npm run dev
 ```
 
 Si tienes alguna pregunta o enfrentas algún inconveniente, no dudes en ponerte en contacto con nosotros.
@@ -28,7 +28,7 @@ Si tienes alguna pregunta o enfrentas algún inconveniente, no dudes en ponerte 
 - Diseño minimalista y amigable para el usuario.
 - Fácil navegación y experiencia de usuario intuitiva.
 
-#Tecnologías Utilizadas
+# Tecnologías Utilizadas
 - HTML5
 - CSS3
 - TypeScript
