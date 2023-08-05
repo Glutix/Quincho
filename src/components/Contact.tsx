@@ -123,7 +123,7 @@ const Contact: React.FC = () => {
 
 				<section className="inputGroup">
 					<input
-						type="email"
+						type="text"
 						name="user_email"
 						value={formData.user_email}
 						onChange={handleChange}

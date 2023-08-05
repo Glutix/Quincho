@@ -2,13 +2,10 @@
 	@include fullCenter(column);
 	background-color: white;
 	gap: 1rem;
-  padding: 2rem;
-
-	&-title {
-    font-size: 2rem;
-	}
+	padding: 2rem;
 
 	&-text {
-    font-weight: bold;
+		width: 80%;
+		letter-spacing: 1px;
 	}
 }

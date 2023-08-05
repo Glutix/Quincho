@@ -2,86 +2,74 @@
 	background-color: $color-text;
 	color: $color-primary;
 	width: 100%;
-	height: fit-content;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	gap: 2rem;
+	flex-wrap: wrap;
+	gap: 3rem;
 
+	img {
+		width: 2.2rem;
+		height: 2.2rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	p {
+		font-size: 1.1rem;
+		letter-spacing: 1px;
+	}
+
+	//info
 	&-info {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 3rem;
+		justify-content: space-evenly;
+		width: 100%;
+		height: fit-content;
+		padding: 1rem;
 
-		&-1 {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			width: 100%;
-			height: 100%;
-			gap: 1rem;
-
-			section {
-				display: flex;
-				width: fit-content;
-				justify-content: flex-start;
-				text-align: justify;
-				gap: 1rem;
-			}
-		}
-
+		//conteiner info
 		&-conteiner {
 			display: flex;
 			flex-direction: column;
+			justify-content: center;
 			align-items: center;
-			width: 100%;
-			height: 100%;
-			gap: 2rem;
-			border-right: 2px solid $color-primary;
+			min-width: calc(33% - 2rem);
+			gap: 1.5rem;
+			height: fit-content;
 
-			span {
-				display: block;
+			.section-1 {
+				display: flex;
+				gap: 1rem;
+				align-items: center;
+				height: 3rem;
 			}
 
-			&-1 {
+			.section-2 {
 				display: flex;
-				width: fit-content;
-				justify-content: center;
+				gap: 2rem;
 				align-items: center;
-				width: 100%;
-				height: fit-content;
-				gap: 1rem;
+				justify-content: center;
+				height: 3rem;
+			}
 
-				span {
-					display: block;
+			.section-3 {
+				display: flex;
+				flex-direction: column;
+				gap: 1.5rem;
+				align-items: center;
+
+				div {
+					@include fullCenter(column);
+					gap: 0.5rem;
 				}
 			}
-
-			&-2 {
-				display: flex;
-				gap: 1rem;
-			}
-
-			&-3 {
-				display: flex;
-				width: fit-content;
-				justify-content: flex-start;
-				gap: 1rem;
-				width: 15rem;
-				height: fit-content;
-				margin-left: 5rem;
-			}
-		}
-
-		.aux {
-			border-right: none;
-		}
-
-		img {
-			width: 2rem;
-			height: 2rem;
 		}
 	}
 }

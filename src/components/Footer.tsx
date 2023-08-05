@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
 					<h2>
 						Quincho <span>Alto Norte</span>
 					</h2>
-					<section className="footer-info-conteiner-1">
+					<section className="section-1">
 						<img src={location} alt="location-icon" />
 						<p>
 							Calle 000 y 61 <span>Alto del norte</span>
@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
 
 				<div className="footer-info-conteiner">
 					<h2>Seguinos en</h2>
-					<section className="footer-info-conteiner-2">
+					<section className="section-2">
 						<a
 							href="https://www.facebook.com/profile.php?id=100087569863426"
 							target="_blank"
@@ -37,22 +37,24 @@ const Footer: React.FC = () => {
 					</section>
 				</div>
 
-				<div className="footer-info-conteiner aux">
+				<div className="footer-info-conteiner">
 					<h2>Contactanos</h2>
 
-					<section className="footer-info-conteiner-3">
-						<img src={whatsapp} alt="whatsapp-icon" />
-						<p>3644-608772</p>
-					</section>
+					<section className="section-3">
+						<div>
+							<img src={whatsapp} alt="whatsapp-icon" />
+							<p>3644-608772</p>
+						</div>
 
-					<section className="footer-info-conteiner-3">
-						<img src={mobile} alt="whatsapp-icon" />
-						<p>3644-608772</p>
-					</section>
+						<div>
+							<img src={mobile} alt="whatsapp-icon" />
+							<p>3644-608772</p>
+						</div>
 
-					<section className="footer-info-conteiner-3">
-						<img src={gmail} alt="gmail-icon" />
-						<p>pipi_poto@hotmail.com</p>
+						<div>
+							<img src={gmail} alt="gmail-icon" />
+							<p>pipi_poto@hotmail.com</p>
+						</div>
 					</section>
 				</div>
 			</div>

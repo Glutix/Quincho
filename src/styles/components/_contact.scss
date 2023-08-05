@@ -26,9 +26,9 @@
 
 		.inputGroup input {
 			font-size: 100%;
-			padding: 0.8em;
+			padding: 1rem;
 			outline: none;
-			border: 2px solid rgb(200, 200, 200);
+			border: 2px solid $color-secondary;
 			background-color: transparent;
 			border-radius: 20px;
 			width: 100%;
@@ -49,7 +49,10 @@
 			transform: translateY(-50%) scale(0.9);
 			margin: 0em;
 			margin-left: 1.3em;
-			padding: 0.4em;
+			padding-left: 0.3em;
+			padding-right: 0.3em;
+			padding-top: 0;
+			padding-bottom: 0;
 			background-color: white;
 		}
 

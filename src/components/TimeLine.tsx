@@ -10,7 +10,7 @@ import fondo from "../assets/Slider/image (20).jpg";
 const TimeLine: React.FC = () => {
 	return (
 		<div className="time-line">
-			<h2>Servicios</h2>
+			<h2 id="service">Servicios</h2>
 			<VerticalTimeline>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"

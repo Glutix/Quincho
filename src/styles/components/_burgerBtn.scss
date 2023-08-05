@@ -1,3 +1,7 @@
+.burger-btn {
+	display: none;
+}
+
 #checkbox2 {
 	display: none;
 }
@@ -56,4 +60,10 @@
 #checkbox2:checked + .toggle2 {
 	transition-duration: 0.5s;
 	transform: rotate(180deg);
+}
+
+@media screen and (max-width: 720px) {
+	.burger-btn {
+		display: flex;
+	}
 }
