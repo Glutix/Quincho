@@ -103,7 +103,14 @@ const Contact: React.FC = () => {
 		<div className="contact">
 			<h2 id="contact">Contáctame</h2>
 
-			<form ref={form} onSubmit={sendEmail} className="form">
+			<form
+				ref={form}
+				onSubmit={sendEmail}
+				className="form"
+				data-aos="flip-down"
+				data-aos-offset="300"
+				data-aos-easing="ease-in-sine"
+			>
 				<section className="inputGroup">
 					<input
 						type="text"

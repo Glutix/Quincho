@@ -3,9 +3,19 @@
 	background-color: white;
 	gap: 1rem;
 	padding: 2rem;
+	width: 100%;
+	height: fit-content;
+
+	img {
+		width: 20rem;
+		height: 20rem;
+	}
 
 	&-text {
-		width: 80%;
+		width: 100%;
 		letter-spacing: 1px;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		text-align: center;
 	}
 }

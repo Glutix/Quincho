@@ -4,7 +4,18 @@ const About: React.FC = () => {
 	return (
 		<div className="about">
 			<h2 id="about">Sobre nosotros</h2>
-			<p className="about-text">
+
+			<img
+				src="https://media.istockphoto.com/id/1299271420/es/vector/elemento-de-dise%C3%B1o-familiar.jpg?s=612x612&w=0&k=20&c=ABRkZn9J26k0nsMDGphsZOiSmZ73GNaO57xRyvAzQGk="
+				alt="image-famaly_happy"
+			/>
+			<p
+				className="about-text"
+				data-aos="fade-zoom-in"
+				data-aos-easing="ease-in-back"
+				data-aos-delay="200"
+				data-aos-offset="0"
+			>
 				¡Bienvenidos a <strong>Quincho Alto Norte!</strong> 😄 Somos el destino
 				perfecto para tus encuentros y celebraciones familiares. Con 2 años de
 				experiencia, te brindamos un encantador quincho rodeado de naturaleza

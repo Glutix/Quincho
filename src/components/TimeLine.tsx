@@ -4,21 +4,24 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import React from "react";
-
 import fondo from "../assets/Slider/image (20).jpg";
 
 const TimeLine: React.FC = () => {
 	return (
 		<div className="time-line">
-			<h2 id="service">Servicios</h2>
+			<h2 id="service" className="title-principal">
+				Servicios
+			</h2>
 			<VerticalTimeline>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
-					date="Sonido"
 					iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-					//icon={<WorkIcon />}
+					contentArrowStyle={{
+						borderRight: "15px solid white",
+					}}
 				>
-					<div className="probando">
+					<div className="time-line-card">
+						<h2 className="title">Sonido</h2>
 						<img
 							src="https://www.elmundofinanciero.com/fotos/434/73FFGR.jpg"
 							alt="sonido-image"
@@ -34,11 +37,13 @@ const TimeLine: React.FC = () => {
 
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
-					date="Parrilla"
 					iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-					//icon={<WorkIcon />}
+					contentArrowStyle={{
+						borderRight: "15px solid white",
+					}}
 				>
-					<div className="probando">
+					<div className="time-line-card">
+						<h2 className="title">Parilla</h2>
 						<img
 							src="https://www.elesquiu.com/u/fotografias/m/2023/6/18/f608x342-472167_501890_0.jpg"
 							alt="parrilla-image"
@@ -54,11 +59,13 @@ const TimeLine: React.FC = () => {
 
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
-					date="Pileta"
 					iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-					//icon={<WorkIcon />}
+					contentArrowStyle={{
+						borderRight: "15px solid white",
+					}}
 				>
-					<div className="probando">
+					<div className="time-line-card">
+						<h2 className="title">Pileta</h2>
 						<img src={fondo} alt="" />
 						<p>
 							¡Sumérgete en el lujo y la diversión! 💦 Nuestra piscina es un

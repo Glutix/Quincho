@@ -24,14 +24,14 @@ const Navbar: React.FC = () => {
 				</li>
 
 				<li className="nav-item">
-					<a href="#galery" onClick={handleAncor}>
-						Fotos
+					<a href="#service" onClick={handleAncor}>
+						Servicios
 					</a>
 				</li>
 
 				<li className="nav-item">
-					<a href="#service" onClick={handleAncor}>
-						Servicios
+					<a href="#galery" onClick={handleAncor}>
+						Fotos
 					</a>
 				</li>
 

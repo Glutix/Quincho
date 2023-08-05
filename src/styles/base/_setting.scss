@@ -67,7 +67,10 @@ a {
 .app {
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	margin-bottom: 2rem;
 	min-width: 100%;
 	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	gap: 2rem;
 }
