@@ -1,27 +1,35 @@
-# React + TypeScript + Vite
+# Quincho Alto Norte
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es una aplicación minimalista creada para proporcionar a los usuarios una vista general de los servicios que ofrece Quincho Alto Norte.
 
-Currently, two official plugins are available:
+## Despliegue de la Aplicación
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para desplegar la aplicación en tu entorno local, sigue estos sencillos pasos:
 
-## Expanding the ESLint configuration
+1. Clona este repositorio:
+   ```sh
+   git clone https://github.com/tuusuario/quincho-alto-norte.git
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## instalar Dependencias
+```sh
+   npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Ejecutar la App
+```js
+   npm install
+```
+
+Si tienes alguna pregunta o enfrentas algún inconveniente, no dudes en ponerte en contacto con nosotros.
+
+# Características
+- Vista general de los servicios ofrecidos por Quincho Alto Norte.
+- Diseño minimalista y amigable para el usuario.
+- Fácil navegación y experiencia de usuario intuitiva.
+
+#Tecnologías Utilizadas
+- HTML5
+- CSS3
+- TypeScript
+- React
