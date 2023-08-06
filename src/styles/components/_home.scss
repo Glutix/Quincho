@@ -10,21 +10,24 @@
 		@include fullCenter(column);
 		width: 100%;
 		gap: 3rem;
+		z-index: 555;
+		opacity: 1;
 
 		&-title {
 			@include fullCenter(column);
 			gap: 1rem;
+
 			h2 {
 				font-size: 3em;
 				font-weight: 700;
 				letter-spacing: 2px;
-				color: $color-primary;
+				color: white;
 			}
 		}
 
 		&-text {
 			text-align: center;
-			color: $color-primary;
+			color: white;
 
 			p {
 				font-size: 2rem;

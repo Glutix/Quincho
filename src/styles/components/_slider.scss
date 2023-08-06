@@ -4,9 +4,9 @@
 	justify-content: center;
 	align-items: center;
 	gap: 1rem;
-	width: 100%;
+	min-width: 100%;
 	height: fit-content;
-	padding: 3rem;
+	padding: 1rem;
 	background-color: white;
 
 	h2 {
@@ -24,6 +24,7 @@
 			height: 100%;
 			border: 1px solid $color-secondary;
 			object-fit: cover;
+			
 		}
 	}
 }
