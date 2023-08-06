@@ -58,12 +58,12 @@ const Footer: React.FC = () => {
 
 						<div>
 							<img src={gmail} alt="gmail-icon" />
-							<p>pipi_poto@hotmail.com</p>
+							<p>quincho.alto.norte@gmail.com</p>
 						</div>
 					</section>
 				</div>
 			</div>
-			<p>Copyright 2023©</p>
+			<p>&copy; 2023 Quincho Alto Norte. Todos los derechos reservados.</p>
 		</footer>
 	);
 };

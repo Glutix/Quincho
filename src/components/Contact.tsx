@@ -41,10 +41,10 @@ const Contact: React.FC = () => {
 		if (form.current && isValid) {
 			emailjs
 				.sendForm(
-					"service_dhkyyrg",
-					"template_nq45l9r",
+					"service_9yw12ar",
+					"template_2hmhzze",
 					form.current,
-					"leaVQ4vTzlWI2IXEx"
+					"5WBt3N9xKqdE-i1-C"
 				)
 				.then(
 					(_result: EmailJSResponseStatus) => {

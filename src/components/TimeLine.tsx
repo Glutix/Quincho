@@ -8,7 +8,7 @@ import fondo from "../assets/Slider/image (20).jpg";
 
 const TimeLine: React.FC = () => {
 	return (
-		<div className="time-line" id="service">
+		<section className="time-line" id="service">
 			<h2 className="title-principal">Servicios</h2>
 			<VerticalTimeline>
 				<VerticalTimelineElement
@@ -73,7 +73,7 @@ const TimeLine: React.FC = () => {
 					</div>
 				</VerticalTimelineElement>
 			</VerticalTimeline>
-		</div>
+		</section>
 	);
 };
 

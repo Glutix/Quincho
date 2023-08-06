@@ -3,23 +3,6 @@ import BurgerBtn from "./BurgerBtn";
 import { OpenProps } from "../utils/interfaces";
 
 const Navbar: React.FC<OpenProps> = ({ isOpen, handleClick, handleAncor }) => {
-	/* 	const [isOpen, setIsOpen] = useState(false);
-	document.body.style.overflow = !isOpen ? "auto" : "hidden";
-
-	const handleClick = () => {
-		setIsOpen(!isOpen);
-	};
-
-	const handleAncor = () => {
-		setIsOpen(false);
-	}; */
-
-	/* useEffect(() => {
-		isOpen
-			? window.localStorage.setItem("isOpen", "true")
-			: window.localStorage.setItem("isOpen", "false");
-	}, [isOpen]); */
-
 	return (
 		<nav className="nav">
 			<h2 className="nav-logo">Alto Norte</h2>
