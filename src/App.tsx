@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import Slider from "./components/Slider/Slider";
 import TimeLine from "./components/TimeLine";
 import ScrollToTop from "./components/ScrollToTop";
-import Location from "./components/location";
+import Location from "./components/Location";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Whatsapp from "./components/Whatsapp";
