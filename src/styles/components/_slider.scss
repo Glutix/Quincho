@@ -26,9 +26,16 @@
 }
 
 @media screen and (max-width: 720px) {
+	.slider-conteiner {
+		height: fit-content;
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+		gap: 3rem;
+	}
+
 	.mySwiper {
 		width: 18rem !important;
-		height: 35rem !important;
+		height: 60vh !important;
 		border-radius: 1rem;
 	}
 }
