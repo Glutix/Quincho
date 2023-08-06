@@ -12,14 +12,14 @@ Para desplegar la aplicación en tu entorno local, sigue estos sencillos pasos:
    ```
 
 2. Instalar las dependecias
-```sh
-   npm install
-```
+   ```sh
+      npm install
+   ```
 
 3. Ejecutar la App
-```js
-   npm run dev
-```
+   ```js
+      npm run dev
+   ```
 
 Si tienes alguna pregunta o enfrentas algún inconveniente, no dudes en ponerte en contacto con nosotros.
 
