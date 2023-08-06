@@ -8,7 +8,7 @@ Para desplegar la aplicación en tu entorno local, sigue estos sencillos pasos:
 
 1. Clona este repositorio:
    ```sh
-   git clone https://github.com/Glutix/Quincho.git
+      git clone https://github.com/Glutix/Quincho.git
    ```
 
 2. Instalar las dependecias
