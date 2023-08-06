@@ -21,7 +21,7 @@ Para desplegar la aplicación en tu entorno local, sigue estos sencillos pasos:
       npm run dev
    ```
 
-Si tienes alguna pregunta o enfrentas algún inconveniente, no dudes en ponerte en contacto con nosotros.
+Si tienes alguna pregunta o enfrentas algún inconveniente, no dudes en ponerte en contacto con nostoros.
 
 # Características
 - Vista general de los servicios ofrecidos por Quincho Alto Norte.
