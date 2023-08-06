@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import arrow from "../assets/icons/arrow-scroll.svg";
+import { OpenProps } from "../utils/interfaces";
 
-const ScrollToTop: React.FC = () => {
+const ScrollToTop: React.FC<OpenProps> = ({ isOpen }) => {
 	const [isVisible, setIsVisible] = useState(false);
 
 	const handleScroll = () => {
@@ -29,7 +30,7 @@ const ScrollToTop: React.FC = () => {
 	return (
 		<div className="scroll-conteiner">
 			<button
-				className={`scroll-to-top ${isVisible ? "visible" : ""}`}
+				className={`scroll-to-top ${isVisible && !isOpen ? "visible" : ""}`}
 				onClick={scrollToTop}
 			>
 				<img src={arrow} alt="icon-arrow" />

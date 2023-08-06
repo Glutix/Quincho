@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import BurgerBtn from "./BurgerBtn";
+import { OpenProps } from "../utils/interfaces";
 
-const Navbar: React.FC = () => {
-	const [isOpen, setIsOpen] = useState(false);
+const Navbar: React.FC<OpenProps> = ({ isOpen, handleClick, handleAncor }) => {
+	/* 	const [isOpen, setIsOpen] = useState(false);
 	document.body.style.overflow = !isOpen ? "auto" : "hidden";
 
 	const handleClick = () => {
@@ -11,7 +12,13 @@ const Navbar: React.FC = () => {
 
 	const handleAncor = () => {
 		setIsOpen(false);
-	};
+	}; */
+
+	/* useEffect(() => {
+		isOpen
+			? window.localStorage.setItem("isOpen", "true")
+			: window.localStorage.setItem("isOpen", "false");
+	}, [isOpen]); */
 
 	return (
 		<nav className="nav">

@@ -38,6 +38,12 @@ export interface SlideProps {
 	url: string;
 }
 
+export interface OpenProps {
+	isOpen: boolean;
+	handleClick: () => void;
+	handleAncor?: () => void;
+}
+
 //? Types
 export type Project = ProjectProps[];
 export type Tech = TechProps[];

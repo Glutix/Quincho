@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import whatsApp from "../assets/icons/whatsapp-icon.svg";
+import { OpenProps } from "../utils/interfaces";
 
-const Whatsapp: React.FC = () => {
+const Whatsapp: React.FC<OpenProps> = ({ isOpen }) => {
 	const [isVisible, setIsVisible] = useState(false);
 
 	const handleScroll = () => {
@@ -24,7 +25,7 @@ const Whatsapp: React.FC = () => {
 			<a
 				href="https://wa.link/ioi7jj"
 				target="_blank"
-				className={`scroll-to-show ${isVisible ? "visible" : ""}`}
+				className={`scroll-to-show ${isVisible && !isOpen ? "visible" : ""}`}
 			>
 				<img src={whatsApp} alt="icon-whatsApp" />
 			</a>

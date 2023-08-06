@@ -1,10 +1,7 @@
 import React from "react";
-interface Props {
-	isOpen: boolean;
-	handleClick: () => void;
-}
+import { OpenProps } from "../utils/interfaces";
 
-const BurgerBtn: React.FC<Props> = ({ handleClick, isOpen }) => {
+const BurgerBtn: React.FC<OpenProps> = ({ handleClick, isOpen }) => {
 	return (
 		<div className="burger-btn">
 			<input
