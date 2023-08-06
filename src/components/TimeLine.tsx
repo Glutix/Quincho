@@ -4,16 +4,22 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import React from "react";
-import fondo from "../assets/Slider/image (20).jpg";
 
 const TimeLine: React.FC = () => {
 	return (
 		<section className="time-line" id="service">
 			<h2 className="title-principal">Servicios</h2>
-			<VerticalTimeline>
+			<VerticalTimeline animate={false} lineColor={"#2ba8fb"}>
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
-					iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+					iconStyle={{
+						backgroundImage:
+							"url(https://www.elmundofinanciero.com/fotos/434/73FFGR.jpg)",
+						color: "#fff",
+						backgroundRepeat: "no-repeat",
+						backgroundPosition: "center center",
+						backgroundSize: "cover",
+					}}
 					contentArrowStyle={{
 						borderRight: "15px solid white",
 					}}
@@ -35,7 +41,14 @@ const TimeLine: React.FC = () => {
 
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
-					iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+					iconStyle={{
+						backgroundImage:
+							"url(https://www.elesquiu.com/u/fotografias/m/2023/6/18/f608x342-472167_501890_0.jpg)",
+						color: "#fff",
+						backgroundRepeat: "no-repeat",
+						backgroundPosition: "center center",
+						backgroundSize: "cover",
+					}}
 					contentArrowStyle={{
 						borderRight: "15px solid white",
 					}}
@@ -57,14 +70,23 @@ const TimeLine: React.FC = () => {
 
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
-					iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+					iconStyle={{
+						backgroundImage: "url(https://i.imgur.com/TcVqXPp.jpg)",
+						color: "#fff",
+						backgroundRepeat: "no-repeat",
+						backgroundPosition: "center center",
+						backgroundSize: "cover",
+					}}
 					contentArrowStyle={{
 						borderRight: "15px solid white",
 					}}
 				>
 					<div className="time-line-card">
 						<h2 className="title">Pileta</h2>
-						<img src={fondo} alt="" />
+						<img
+							src="https://i.imgur.com/TcVqXPp.jpg"
+							alt="una-hermosa-pileta"
+						/>
 						<p>
 							¡Sumérgete en el lujo y la diversión! 💦 Nuestra piscina es un
 							oasis de relajación y momentos inolvidables. ¡Disfruta del agua al
