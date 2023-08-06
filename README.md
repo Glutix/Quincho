@@ -2,7 +2,7 @@
 
 Este es una aplicación minimalista creada para proporcionar a los usuarios una vista general de los servicios que ofrece Quincho Alto Norte.
 
-## Despliegue de la Aplicación
+# Despliegue de la Aplicación
 
 Para desplegar la aplicación en tu entorno local, sigue estos sencillos pasos:
 
@@ -11,12 +11,12 @@ Para desplegar la aplicación en tu entorno local, sigue estos sencillos pasos:
    git clone https://github.com/tuusuario/quincho-alto-norte.git
    ```
 
-## instalar Dependencias
+2. Instalar las dependecias
 ```sh
    npm install
 ```
 
-## Ejecutar la App
+3. Ejecutar la App
 ```js
    npm run dev
 ```
