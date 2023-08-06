@@ -6,7 +6,7 @@
 	gap: 1rem;
 	width: 100%;
 	height: fit-content;
-	padding: 1rem;
+	padding: 3rem;
 	background-color: white;
 
 	h2 {
@@ -25,5 +25,13 @@
 			border: 1px solid $color-secondary;
 			object-fit: cover;
 		}
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.mySwiper {
+		width: 18rem !important;
+		height: 25 !important;
+		border-radius: 1rem;
 	}
 }
