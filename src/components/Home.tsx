@@ -26,7 +26,9 @@ const Home: React.FC = () => {
 						data-aos-delay="500"
 						data-aos-offset="0"
 					>
-						<p>Vení a disfrutar con la familia</p>
+						<p>
+							Vení a disfrutar con la <span>familia</span>
+						</p>
 					</div>
 				</section>
 			</div>

@@ -10,8 +10,6 @@
 		@include fullCenter(column);
 		width: 100%;
 		gap: 3rem;
-		z-index: 555;
-		opacity: 1;
 
 		&-title {
 			@include fullCenter(column);
@@ -27,6 +25,7 @@
 
 		&-text {
 			text-align: center;
+			gap: 1rem;
 			color: white;
 
 			p {
@@ -36,3 +35,15 @@
 		}
 	}
 }
+
+
+@media screen and (max-width: 720px) {
+	.fondo-section{
+		p{
+			display: flex;
+			flex-direction: column;
+			gap: 1.5rem;
+		}
+	}
+}
+
