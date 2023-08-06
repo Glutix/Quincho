@@ -1,4 +1,6 @@
 .location {
+	width: 100%;
+	height: calc(100vh + 3rem);
 	@include fullCenter(column);
 	background-color: white;
 	padding: 2rem;

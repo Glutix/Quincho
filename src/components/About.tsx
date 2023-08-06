@@ -2,8 +2,8 @@ import React from "react";
 
 const About: React.FC = () => {
 	return (
-		<div className="about">
-			<h2 id="about">Sobre nosotros</h2>
+		<section className="about" id="about">
+			<h2>Sobre nosotros</h2>
 
 			<img
 				src="https://media.istockphoto.com/id/1299271420/es/vector/elemento-de-dise%C3%B1o-familiar.jpg?s=612x612&w=0&k=20&c=ABRkZn9J26k0nsMDGphsZOiSmZ73GNaO57xRyvAzQGk="
@@ -25,7 +25,7 @@ const About: React.FC = () => {
 				enorgullece ser parte de tus momentos especiales. ¡Reserva tu fecha y
 				crea recuerdos inolvidables con nosotros! 📅🎉
 			</p>
-		</div>
+		</section>
 	);
 };
 

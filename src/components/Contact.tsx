@@ -100,8 +100,8 @@ const Contact: React.FC = () => {
 	}, [errors]);
 
 	return (
-		<div className="contact">
-			<h2 id="contact">Contáctame</h2>
+		<div className="contact" id="contact">
+			<h2>Contáctame</h2>
 
 			<form
 				ref={form}

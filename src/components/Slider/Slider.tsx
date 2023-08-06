@@ -13,7 +13,7 @@ import { EffectCards } from "swiper/modules";
 
 const Slider: React.FC = () => {
 	return (
-		<div className="slider-conteiner" id="galery">
+		<section className="slider-conteiner" id="galery">
 			<h2>Galeria de imagenes</h2>
 
 			<Swiper
@@ -30,7 +30,7 @@ const Slider: React.FC = () => {
 					);
 				})}
 			</Swiper>
-		</div>
+		</section>
 	);
 };
 
