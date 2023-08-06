@@ -1,0 +1,6 @@
+.location {
+	@include fullCenter(column);
+	background-color: white;
+	padding: 2rem;
+  gap: 2rem;
+}

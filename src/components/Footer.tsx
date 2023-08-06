@@ -14,12 +14,17 @@ const Footer: React.FC = () => {
 					<h2>
 						Quincho <span>Alto Norte</span>
 					</h2>
-					<section className="section-1">
+
+					<a
+						href="https://goo.gl/maps/VeifdiprpmmXs5hy7"
+						target="_blank"
+						className="section-1"
+					>
 						<img src={location} alt="location-icon" />
 						<p>
 							Calle 000 y 61 <span>Alto del norte</span>
 						</p>
-					</section>
+					</a>
 				</div>
 
 				<div className="footer-info-conteiner">

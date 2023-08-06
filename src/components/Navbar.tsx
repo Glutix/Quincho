@@ -43,6 +43,10 @@ const Navbar: React.FC = () => {
 				<li className="nav-item" onClick={handleAncor}>
 					<a href="#contact">Contacto</a>
 				</li>
+
+				<li className="nav-item" onClick={handleAncor}>
+					<a href="#location">Ubicación</a>
+				</li>
 			</ul>
 
 			<BurgerBtn isOpen={isOpen} handleClick={handleClick} />
