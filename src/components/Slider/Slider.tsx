@@ -21,6 +21,10 @@ const Slider: React.FC = () => {
 				grabCursor={true}
 				modules={[EffectCards]}
 				className="mySwiper"
+				data-aos="fade-zoom-in"
+				data-aos-easing="ease-in-back"
+				data-aos-delay="100"
+				data-aos-offset="50"
 			>
 				{images.map((item, index) => {
 					return (

@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
 	return (
 		<footer className="footer">
 			<div className="footer-info">
-				<div className="footer-info-conteiner">
+				<div className="footer-info-conteiner" data-aos="zoom-out-down">
 					<h2>
 						Quincho <span>Alto Norte</span>
 					</h2>
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
 					</a>
 				</div>
 
-				<div className="footer-info-conteiner">
+				<div className="footer-info-conteiner" data-aos="zoom-out-up">
 					<h2>Seguinos en</h2>
 					<section className="section-2">
 						<a
@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
 					</section>
 				</div>
 
-				<div className="footer-info-conteiner">
+				<div className="footer-info-conteiner" data-aos="zoom-out">
 					<h2>Contactanos</h2>
 
 					<section className="section-3">

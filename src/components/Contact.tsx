@@ -107,7 +107,7 @@ const Contact: React.FC = () => {
 				ref={form}
 				onSubmit={sendEmail}
 				className="form"
-				data-aos="flip-down"
+				data-aos="fade-right"
 				data-aos-offset="300"
 				data-aos-easing="ease-in-sine"
 			>

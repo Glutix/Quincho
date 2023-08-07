@@ -4,7 +4,13 @@
 	gap: 1rem;
 	width: 100%;
 	height: fit-content;
+	margin: 0 auto;
 	text-align: center;
+	overflow: hidden;
+
+	.conteiner-card {
+		margin-bottom: 3rem;
+	}
 
 	.title-principal {
 		font-size: 2rem;
