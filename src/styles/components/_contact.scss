@@ -12,11 +12,11 @@
 
 	.form {
 		@include fullCenter(column);
-		width: 30rem;
+		width: 28rem;
 		height: fit-content;
 		border-radius: 1rem;
 		border: 1px solid $color-secondary;
-		padding: 1rem;
+		padding: 2rem;
 		gap: 1rem;
 
 		.inputGroup {
