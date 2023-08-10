@@ -24,10 +24,9 @@ const About: React.FC = () => {
 				perfecto para tus encuentros y celebraciones familiares. Con 2 años de
 				experiencia, te brindamos un encantador quincho rodeado de naturaleza
 				🌳🏞️ y un ambiente acogedor. Nuestras instalaciones están equipadas con
-				parrilla, piscina 🍔🏊‍♂️, baños y espacios de relajación. Además,
-				ofrecemos servicios de sonido 🎶, iluminación 💡, limpieza 🧹 y más. Nos
-				enorgullece ser parte de tus momentos especiales. ¡Reserva tu fecha y
-				crea recuerdos inolvidables con nosotros! 📅🎉
+				parrilla, piscina 🍔🏊‍♂️, baños y espacios de relajación. Nos enorgullece
+				ser parte de tus momentos especiales. ¡Reserva tu fecha y crea recuerdos
+				inolvidables con nosotros! 📅🎉
 			</p>
 		</section>
 	);
