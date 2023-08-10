@@ -10,7 +10,7 @@ const TimeLine: React.FC = () => {
 		<section className="time-line" id="service">
 			<h2 className="title-principal">Servicios</h2>
 			<VerticalTimeline animate={false} lineColor={"#2ba8fb"}>
-				<div className="conteiner-card" data-aos="fade-right">
+				{/* <div className="conteiner-card" data-aos="fade-right">
 					<VerticalTimelineElement
 						className="vertical-timeline-element--work"
 						iconStyle={{
@@ -40,7 +40,7 @@ const TimeLine: React.FC = () => {
 							</p>
 						</div>
 					</VerticalTimelineElement>
-				</div>
+				</div> */}
 
 				<div className="conteiner-card" data-aos="fade-left">
 					<VerticalTimelineElement
