@@ -36,7 +36,7 @@ const App = () => {
 	};
 
 	return (
-		<div className="app">
+		<main >
 			<Navbar
 				isOpen={isOpen}
 				handleClick={handleClick}
@@ -51,7 +51,7 @@ const App = () => {
 			<Contact />
 			<Location />
 			<Footer />
-		</div>
+		</main>
 	);
 };
 
