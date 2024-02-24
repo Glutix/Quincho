@@ -1,146 +1,63 @@
-.contact {
-  @include fullCenter(column);
-  gap: 1rem;
-  background-color: white;
-  padding: 2rem;
+.container {
+  display: flex;
   width: 100%;
-  height: calc(100vh + 3rem);
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  .form {
-    @include fullCenter(column);
-    width: 28rem;
-    height: fit-content;
-    border-radius: 1rem;
-    box-shadow: 1px 1px 4px black;
-    padding: 1rem;
-    gap: 1rem;
-
-    .inputGroup {
-      max-width: 250px;
-      position: relative;
-    }
-
-    .inputGroup input {
-      font-size: 100%;
-      padding: 1rem;
-      outline: none;
-      border: 1px solid $color-primary;
-      background-color: transparent;
-      border-radius: 20px;
-      width: 100%;
-      box-shadow: 1px 1px 4px black;
-    }
-
-    .inputGroup label {
-      font-size: 100%;
-      position: absolute;
-      left: 0;
-      padding: 0.8em;
-      margin-left: 0.5em;
-      pointer-events: none;
-      transition: all 0.3s ease;
-      color: $color-text;
-    }
-
-    .inputGroup :is(input:focus, input:valid) ~ label {
-      transform: translateY(-50%) scale(0.9);
-      margin: 0em;
-      margin-left: 1.3em;
-      padding-left: 0.3em;
-      padding-right: 0.3em;
-      padding-top: 0;
-      padding-bottom: 0;
-      background-color: white;
-    }
-
-    .inputGroup :is(input:focus, input:valid) {
-      border-color: $color-btn;
-    }
-
-  
-
-    .error-message {
-      color: tomato;
-    }
-
-    .error-message2 {
-      visibility: hidden;
-    }
-
-    &-section {
-      @include fullCenter(column);
-      flex-direction: column;
-      gap: 2px;
-      width: 80%;
-
-      textarea {
-        max-width: 100%;
-        min-width: 100%;
-        height: 7rem;
-        min-height: 5rem;
-        color: $color-text;
-        border-radius: 20px;
-        padding: 1rem;
-        text-align: center;
-        letter-spacing: 1px;
-        font-size: 1.1rem;
-        border: 2px solid $color-primary;
-        outline: none;
-        box-shadow: 1px 1px 4px black;
-      }
-
-      textarea:focus {
-        border: 1px solid $color-btn;
-      }
-
-      button {
-        padding: 12.5px 30px;
-        border: 0;
-        border-radius: 100px;
-        background-color: $color-btn;
-        color: #ffffff;
-        transition: all 0.5s;
-        -webkit-transition: all 0.5s;
-      }
-
-      button:hover {
-        background-color: $color-btn-hover;
-        transform: scale(1.1);
-      }
-
-      button:active {
-        transition: all 0.25s;
-        -webkit-transition: all 0.25s;
-        box-shadow: none;
-        transform: scale(0.1);
-      }
-
-      .disable {
-        background-color: #3d94cf;
-      }
-
-      .disable:hover {
-        box-shadow: unset;
-        transform: unset;
-        background-color: #3d94cf;
-      }
-    }
-  }
+  padding: 2rem;
+  justify-content: center;
+  background-color: inherit;
 }
 
-@media screen and (max-width: 720px) {
-  .contact {
-    gap: 3rem;
-    height: fit-content;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
+.form {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+}
 
-  .form {
-    width: 100% !important;
-  }
+.form .title {
+  color: royalblue;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input {
+  outline: 0;
+  border: 1px solid rgb(219, 213, 213);
+  padding: 8px 14px;
+  border-radius: 8px;
+  width: 100%;
+  height: 50px;
+}
+
+.form textarea {
+  border-radius: 8px;
+  height: 100px;
+  width: 100%;
+  resize: none;
+  outline: 0;
+  padding: 8px 14px;
+  border: 1px solid rgb(219, 213, 213);
+}
+
+.form button {
+  align-self: flex-end;
+  padding: 8px;
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: royalblue;
+  color: #fff;
+  cursor: pointer;
 }
